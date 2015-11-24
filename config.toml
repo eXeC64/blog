@@ -1,0 +1,6 @@
+baseurl = "http://exec64.co.uk"
+languageCode = "en-gb"
+title = "eXeC64 - Harry Jeffery"
+
+[author]
+    name = "Harry Jeffery"
