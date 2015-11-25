@@ -64,12 +64,24 @@ a:hover { color: #fdf6e3; }
   color: #ffffff;
   font-size: 3em;
   margin: 0px;
+  margin-top: 0.5em;
 }
 .content h2 {
   color: #268bd2;
   font-size: 2em;
   margin: 0px;
+  margin-top: 0.5em;
 }
+
+/* .content pre { */
+/*   background-color: #073642; */
+/*   padding: 0.5em; */
+/* } */
+
+/* .content code { */
+/*   background-color: #073642; */
+/*   margin: 0.25em; */
+/* } */
 
 .blogs {
   font-size: 1.5em;
@@ -81,4 +93,11 @@ a:hover { color: #fdf6e3; }
 
 .blogs a {
   color: #268bd2;
+}
+
+.comments {
+  margin-left: 18rem;
+  padding: 1em;
+  padding-left: 2em;
+  max-width: 800;
 }
