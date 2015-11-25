@@ -25,7 +25,7 @@ be to get a solid mail server online.
 For my mail server there are three key pieces of software at play:
 
  - [postfix](http://www.postfix.org) - Provides an SMTP server
- - [dovecot](http://www.dovecot.org) - Handled mailboxes, authentication, and IMAP
+ - [dovecot](http://www.dovecot.org) - Handles mailboxes, authentication, and IMAP
  - [MariaDB](https://mariadb.org/) - SQL database of email accounts
 
 Inbound mail is given to postfix via SMTP. Postfix then checks against the SQL
