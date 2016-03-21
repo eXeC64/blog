@@ -154,6 +154,23 @@ const socketMiddleware = (function(){
 export default socketMiddleware
 ```
 
+Making use of the middleware is also a breeze. More information on this can of
+course be found in the documentation for [redux middleware](http://redux.js.org/docs/advanced/Middleware.html).
+
+### store.js
+```javascript
+import { createStore, applyMiddleware } from 'redux'
+import thunk from 'redux-thunk'
+import reducer from './reducer'
+import socketMiddleware from './socketMiddleware'
+
+export default function configureStore(initialState) {
+  return createStore(reducer, initialState,
+      applyMiddleware(thunk, socketMiddleware)
+  )
+}
+```
+
 This fairly straightforward middleware handles our entire websocket with ease.
 It produces and consumes actions as needed, and allows us to effortlessly
 update the local state based on information received from the server, and to
