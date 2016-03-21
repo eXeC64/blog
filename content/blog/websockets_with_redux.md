@@ -59,8 +59,8 @@ The new path of user interaction is as follows:
 
 With additional path for when a message is received from the server:
 
-1. The socket middleware receivs a message from the websocket.
-2. The socket middleware creats an action, and dispatches it to the reducer.
+1. The socket middleware receives a message from the websocket
+2. The socket middleware creates an action, and dispatches it to the reducer
 3. The reducer updates the store's state
 4. The UI is updated with the new state
 
