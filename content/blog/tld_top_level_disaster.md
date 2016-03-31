@@ -1,5 +1,5 @@
 +++
-date = "2016-04-02T12:00:00Z"
+date = "2016-03-31T12:00:00Z"
 title = "TLD - Top Level Disaster"
 
 +++
@@ -26,15 +26,15 @@ Who gains? Well, very few people really. Let's take an obvious example of what
 a useful domain would have been: `minecraft.wiki`. It's descriptive and clean.
 And oh look, registration only costs £15/year. Well, not quite. See, that
 particular TLD is controlled by [Top Level Design](http://toplevel.design) who
-bought control of the entire TLD from ICANN, and so they can do what they like
+bought control of the entire TLD from ICANN. And so they can do what they like
 with it, such as placing specific domains like `minecraft.wiki` on a "premium
 domains list", and instead charging £1,600/year for it. Want to know which
-domains are on that list? You're probably out of luck, I've not found it.
+domains are on that list? You're probably out of luck, I've not found the list.
 
 Who gains now? Well, Curse, the company hosting the minecraft wiki don't. The
-users don't, as it's not worth switching for *that much*? The only people who
-gain, are the companies who bought out the entire TLDs. ICANN has taken the
-annoyance of domain squatting, and given the squatters a nuclear arsenal.
+users don't, as it's not worth switching for *that much*. The only people who
+gain are the companies who bought out the entire TLDs. ICANN has taken the
+annoyance of domain squatting and given the squatters a nuclear arsenal.
 
 One company owns the `.sucks` TLD. Want to stop someone making `brandname.sucks`
 and tarnishing your brand? That's £200/year. Just a little tax by a random third
