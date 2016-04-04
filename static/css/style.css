@@ -56,7 +56,11 @@ a:hover { color: #fdf6e3; }
   margin-left: 18rem;
   padding: 1em;
   padding-left: 2em;
-  max-width: 800;
+}
+
+.content p {
+  max-width: 700px;
+  line-height: 1.4em;
 }
 
 .content h1 {
@@ -71,16 +75,6 @@ a:hover { color: #fdf6e3; }
   margin: 0px;
   margin-top: 0.5em;
 }
-
-/* .content pre { */
-/*   background-color: #073642; */
-/*   padding: 0.5em; */
-/* } */
-
-/* .content code { */
-/*   background-color: #073642; */
-/*   margin: 0.25em; */
-/* } */
 
 .blogs {
   font-size: 1.5em;
@@ -98,5 +92,5 @@ a:hover { color: #fdf6e3; }
   margin-left: 18rem;
   padding: 1em;
   padding-left: 2em;
-  max-width: 800;
+  max-width: 700px;
 }
