@@ -9,15 +9,6 @@ html {
   font-weight: 400;
 }
 
-pre {
-  font-size: 1em;
-  margin: 0 auto;
-}
-
-pre.center {
-  text-align: center;
-}
-
 .nav a {
   color: #859900;
   font-weight: 700;
@@ -48,16 +39,56 @@ a:hover { color: #fdf6e3; }
 .sidebar {
   text-align: left;
   background-color: #073642;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sidebar-section {
+  font-size: 1em;
+  text-align: center;
 }
 
 .content {
-  margin-left: 18rem;
+  margin: 0 auto;
   padding: 1em;
   padding-left: 2em;
+}
+
+.comments {
+  max-width: 700px;
+  margin: 2em;
+}
+
+@media (min-width: 450px) {
+  .sidebar {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 750px) {
+  .content {
+    margin-left: 18rem;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 18rem;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .sidebar-section {
+    margin: 0 auto;
+  }
+
+  .comments {
+    margin-left: 18em;
+    padding-left: 2em;
+    padding-right: 1em;
+  }
 }
 
 .content p {
@@ -88,13 +119,6 @@ a:hover { color: #fdf6e3; }
 
 .blogs a {
   color: #268bd2;
-}
-
-.comments {
-  margin-left: 18rem;
-  padding: 1em;
-  padding-left: 2em;
-  max-width: 700px;
 }
 
 .frontpage {
