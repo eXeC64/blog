@@ -5,12 +5,13 @@ body {
 html {
   background-color: #002b36;
   color: #93a1a1;
-  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 
 pre {
   font-size: 1em;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 pre.center {
@@ -19,7 +20,7 @@ pre.center {
 
 .nav a {
   color: #859900;
-  font-weight: bolder;
+  font-weight: 700;
   text-decoration: none;
   font-size: 1.5em;
   line-height: 1.5;
@@ -28,16 +29,17 @@ pre.center {
 a {
   color: #dc322f;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 a:hover { color: #fdf6e3; }
 
 .hr {
   color: #2aa198;
-  font-weight: bolder;
+  font-weight: 700;
 }
-.bold { font-weight: bolder; }
+
+.bold { font-weight: 700; }
 .white { color: #fdf6e3; }
 .yellow { color: #b58900; }
 .green { color: #859900; }
@@ -66,13 +68,13 @@ a:hover { color: #fdf6e3; }
 .content h1 {
   color: #ffffff;
   font-size: 3em;
-  margin: 0px;
+  margin: 0;
   margin-top: 0.5em;
 }
 .content h2 {
   color: #268bd2;
   font-size: 2em;
-  margin: 0px;
+  margin: 0;
   margin-top: 0.5em;
 }
 
