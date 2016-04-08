@@ -29,7 +29,9 @@ particular TLD is controlled by [Top Level Design](http://toplevel.design) who
 bought control of the entire TLD from ICANN. And so they can do what they like
 with it, such as placing specific domains like `minecraft.wiki` on a "premium
 domains list", and instead charging £1,600/year for it. Want to know which
-domains are on that list? You're probably out of luck, I've not found the list.
+domains are on that list? ~~You're probably out of luck, I've not found the list.~~
+Update: I emailed Top Level Design. They've not published the list yet, but
+they're looking into it.
 
 Who gains now? Well, Curse, the company hosting the minecraft wiki don't. The
 users don't, as it's not worth switching for *that much*. The only people who
