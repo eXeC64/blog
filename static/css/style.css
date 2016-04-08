@@ -91,9 +91,13 @@ a:hover { color: #fdf6e3; }
   }
 }
 
-.content p {
+.content p, .content ol, .content ul {
   max-width: 700px;
   line-height: 1.4em;
+}
+
+.content ol > li {
+  margin: 0.5em;
 }
 
 .content h1 {
