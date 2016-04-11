@@ -9,6 +9,11 @@ html {
   font-weight: 400;
 }
 
+.nav {
+  margin: 0;
+  padding: 0;
+}
+
 .nav a {
   color: #859900;
   font-weight: 700;
@@ -45,8 +50,14 @@ a:hover { color: #fdf6e3; }
 }
 
 .sidebar-section {
+  margin: 0;
+  padding: 0;
   font-size: 1em;
   text-align: center;
+}
+
+.desktop-only {
+  display: none;
 }
 
 .content {
@@ -82,6 +93,10 @@ a:hover { color: #fdf6e3; }
 
   .sidebar-section {
     margin: 0 auto;
+  }
+
+  .desktop-only {
+    display: inline-block;
   }
 
   .comments {
