@@ -9,6 +9,10 @@ html {
   font-weight: 400;
 }
 
+pre {
+  font-family: 'Ubuntu Mono', Monospace;
+}
+
 .nav {
   margin: 0;
   padding: 0;
