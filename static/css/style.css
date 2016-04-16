@@ -74,7 +74,7 @@ a:hover { color: #fdf6e3; }
 }
 
 .desktop-only {
-  display: none;
+  display: none!important;
 }
 
 .content {
@@ -88,9 +88,15 @@ a:hover { color: #fdf6e3; }
   margin: 2em;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 500px) {
   .sidebar {
     flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .sidebar-section {
+    display: inline-block;
+    margin: 1em 1em;
   }
 }
 
@@ -107,7 +113,10 @@ a:hover { color: #fdf6e3; }
     bottom: 0;
     width: 300px;
     flex-direction: column;
-    justify-content: flex-start;
+  }
+
+  .sidebar-section {
+    margin: .5em auto;
   }
 
   .desktop-only {
