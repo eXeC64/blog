@@ -1,7 +1,8 @@
 baseurl = "http://exec64.co.uk"
 languageCode = "en-gb"
 title = "eXeC64 - Harry Jeffery"
-layoutdir = "layout"
+contentdir = "content"
+layoutdir = "layouts"
 staticdir = "static"
 
 [author]
