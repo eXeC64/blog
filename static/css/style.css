@@ -167,11 +167,3 @@ a:hover { color: #fdf6e3; }
 .frontpage {
   max-width: 650px;
 }
-
-.headshot {
-  border-radius: 1em;
-  margin-left: 1em;
-  float: right;
-  width: 12em;
-  height: 12em;
-}
