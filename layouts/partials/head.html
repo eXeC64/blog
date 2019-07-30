@@ -17,14 +17,14 @@
 
 <meta name="theme-color" content="#002b36">
 
-<link rel="me" href="mailto:harry@exec64.co.uk">
+<link rel="me" href="mailto:me@harry.pm">
 
 <title>{{.Title}}</title>
 <link href='https://fonts.googleapis.com/css?family=Raleway:400,700|Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
 <link href="/css/style.css" rel="stylesheet" />
 <link href="/css/icons.css" rel="stylesheet" />
 <link href="/css/prism.css" rel="stylesheet" />
-{{ if .RSSLink }}
-<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-{{ end }}
+{{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
 </head>
