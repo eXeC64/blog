@@ -22,7 +22,6 @@
 <title>{{.Title}}</title>
 <link href='https://fonts.googleapis.com/css?family=Raleway:400,700|Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
 <link href="/css/style.css" rel="stylesheet" />
-<link href="/css/icons.css" rel="stylesheet" />
 <link href="/css/prism.css" rel="stylesheet" />
 {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
