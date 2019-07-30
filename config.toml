@@ -1,6 +1,6 @@
-baseurl = "http://exec64.co.uk"
+baseurl = "http://harry.pm"
 languageCode = "en-gb"
-title = "eXeC64 - Harry Jeffery"
+title = "Harry Jeffery"
 contentdir = "content"
 layoutdir = "layouts"
 staticdir = "static"
